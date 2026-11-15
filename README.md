@@ -86,7 +86,7 @@ $$
 Средний квадрат смещения (Mean Squared Displacement, MSD) по ансамблю из `N` частиц определяется как
 
 $$
-\operatorname{MSD}(t)=\langle r^2(t)\rangle
+\mathrm{MSD}(t)=\langle r^2(t)\rangle
 =\frac{1}{N}\sum_{i=1}^{N}\left[x_i^2(t)+y_i^2(t)\right].
 $$
 
@@ -206,7 +206,7 @@ python -m src.brownian_mc --particles 2500 --steps 500 --dt 0.02 --diffusion 0.5
 Для этого набора конечное время равно `10`, а теоретический MSD в конце расчёта равен
 
 $$
-\operatorname{MSD}_{\mathrm{theory}}(10)=4\cdot0.5\cdot10=20.
+\mathrm{MSD}_{\mathrm{theory}}(10)=4\cdot0.5\cdot10=20.
 $$
 
 ## 6. Выходные данные
